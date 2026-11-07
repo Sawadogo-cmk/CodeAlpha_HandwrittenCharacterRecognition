@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Model files (except cnn_mnist.h5 which is needed by the app)
+models/*.keras
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+# IDE / AI assistant artifacts
+.agents/
+.claude/
